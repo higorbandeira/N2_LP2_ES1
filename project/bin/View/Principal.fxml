@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.PrincipalController">
+   <children>
+      <SplitPane dividerPositions="0.10771992818671454" layoutX="-48.0" layoutY="-576.0" orientation="VERTICAL" prefHeight="559.0" prefWidth="685.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="btnHome" layoutX="25.0" layoutY="16.0" mnemonicParsing="false" text="Home" />
+                  <Button fx:id="btnVender" layoutX="96.0" layoutY="16.0" mnemonicParsing="false" text="Vender" />
+                  <MenuButton layoutX="172.0" layoutY="16.0" mnemonicParsing="false" text="Cadastrar">
+                    <items>
+                      <MenuItem fx:id="btnCadCliente" mnemonicParsing="false" text="Cadastrar Clliente" />
+                      <MenuItem fx:id="btnCadProduto" mnemonicParsing="false" text="Cadastrar Produto" />
+                        <MenuItem fx:id="btnCadFuncionario" mnemonicParsing="false" text="Cadastrar Funcionario" />
+                    </items>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

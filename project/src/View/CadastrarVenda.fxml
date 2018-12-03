@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="494.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CadastrarVenda">
+   <children>
+      <Text layoutX="38.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo produto" />
+      <TextField layoutX="141.0" layoutY="53.0" prefHeight="25.0" prefWidth="60.0" />
+      <ListView fx:id="listProdutos" layoutX="38.0" layoutY="99.0" prefHeight="185.0" prefWidth="589.0" />
+      <Text layoutX="483.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtValor" layoutX="552.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnFinalizarCompra" layoutX="516.0" layoutY="373.0" mnemonicParsing="false" text="Finalizar Compra" />
+      <Button fx:id="btnCancelar" layoutX="38.0" layoutY="379.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>

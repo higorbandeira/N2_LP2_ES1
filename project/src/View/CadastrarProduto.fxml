@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="494.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CadastrarProdutoController">
+   <children>
+      <Text layoutX="100.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome Produto" />
+      <TextField fx:id="txtNomeProduto" layoutX="193.0" layoutY="89.0" prefHeight="25.0" prefWidth="355.0" />
+      <TextField fx:id="txtValorCompra" layoutX="193.0" layoutY="131.0" prefHeight="25.0" prefWidth="121.0" />
+      <Text layoutX="100.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor de compra" />
+      <Text layoutX="339.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor de venda" />
+      <TextField fx:id="txtValorVenda" layoutX="427.0" layoutY="131.0" prefHeight="25.0" prefWidth="121.0" />
+      <Text layoutX="100.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descriçao" />
+      <TextField fx:id="txtDescricao" layoutX="193.0" layoutY="175.0" prefHeight="62.0" prefWidth="355.0" />
+      <Button fx:id="btnCancelar" layoutX="193.0" layoutY="269.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="btnCadastrar" layoutX="481.0" layoutY="269.0" mnemonicParsing="false" text="Cadastrar" />
+   </children>
+</AnchorPane>
